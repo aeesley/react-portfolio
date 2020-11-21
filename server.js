@@ -18,7 +18,6 @@ app.use(express.json());
 //     app.use(express.static('client/build'))
 // };
 
-
 app.use(express.static('client/build'))
 // API and View Routes
 app.use(routes);
