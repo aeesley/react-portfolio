@@ -7,16 +7,24 @@ function Portfolio(props) {
   const [state, setState] = useState({
     projects: [
         {
-           title: "Project1",
-           liveLink: "heroku.com",
-           repoLink: "github.com",
-           thumbnail: ""
+           title: "Veguru App",
+           liveLink: "https://dry-oasis-44384.herokuapp.com/",
+           repoLink: "https://github.com/aeesley/project-2-veguru",
         },
         {
-           title: "Project2",
-           liveLink: "heroku.com",
-           repoLink: "github.com",
-           thumbnail: ""
+           title: "Restaurant Roulette App",
+           liveLink: "https://k1te-m.github.io/Project-1-Restaurant-Roulette/",
+           repoLink: "https://github.com/k1te-m/Project-1-Restaurant-Roulette",
+        },
+        {
+          title: "Eat-Da-Burger App",
+          liveLink: "https://floating-crag-94174.herokuapp.com/",
+          repoLink: "https://github.com/aeesley/burger-hw",
+        },
+        {
+          title: "Weather Dashboard App",
+          liveLink: "https://aeesley.github.io/weather-dashboard-hw/",
+          repoLink: "https://github.com/aeesley/weather-dashboard-hw",
         }
     ]
 })
