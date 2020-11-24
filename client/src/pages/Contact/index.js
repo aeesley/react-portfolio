@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import resume from './alexandra-eesley_resume2020.pdf';
 
 function Contact(props) {
   return (
@@ -12,7 +13,7 @@ function Contact(props) {
       <h4>Github</h4>
       <a href="https://github.com/aeesley" target="_blank">Explore my projects.</a>
       <h4>Resume</h4>
-      <a href="./alexandra-eesley_resume2020.pdf" download="alexandra-eesley_resume2020" target="_blank">Download my resume.</a>
+      <a href={resume} download="alexandra-eesley_resume2020" target="_blank">Download my resume.</a>
     </div>
   
   );
