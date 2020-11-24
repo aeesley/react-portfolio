@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import "./style.css";
+import headshot from './head-shot.png';
 
 
 function About(props) {
@@ -17,7 +18,8 @@ function About(props) {
       <div class="container">
         <div class="row">
           <div class="col-sm">
-            <img src="./head-shot.png" id="aboutmg" alt="alex eesley headshot"></img>
+            {/* <img src="./head-shot.png" id="aboutmg" alt="alex eesley headshot"></img> */}
+            <img src={headshot} id="aboutmg" alt="alex eesley headshot"></img>
           </div>
           <div class="col-sm">
             <p>Full stack web developer and digital marketing expert with extensive entrepreneurship and leadership experience, including an MBA. Earned a certificate from Northwestern University’s Full Time Coding Program while running a successful consulting business at the same time. </p>
