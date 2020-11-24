@@ -11,6 +11,8 @@ function Contact(props) {
       <a href="https://www.linkedin.com/in/alexandra-eesley-0998a81a/" target="_blank">See my past experience.</a>
       <h4>Github</h4>
       <a href="https://github.com/aeesley" target="_blank">Explore my projects.</a>
+      <h4>Resume</h4>
+      <a href="./alexandra-eesley_resume2020.pdf" download="alexandra-eesley_resume2020" target="_blank">Download my resume.</a>
     </div>
   
   );
